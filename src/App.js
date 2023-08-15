@@ -55,7 +55,8 @@ function App() {
           type="text"
           value={editInputValue}
           onChange={(e) => setEditInputValue(e.target.value)}
-        />):(<input placeholder="Write a goal..."
+        />):(
+        <input placeholder="Write a goal..."
         name="inputvalue"
         value={inputValue}
         onChange={handleInputChange}
