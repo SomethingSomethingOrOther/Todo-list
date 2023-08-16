@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div >
         <h1>
           Todo List
         </h1>
